@@ -2,3 +2,26 @@ body{
   margin:0;
   padding: 0;
 }
+
+#app{
+  background-color: rgb(220, 220, 220);
+  position: absolute;
+  z-index: 0;
+  width:100vw;
+  height: 100vh;
+  display: flex;
+}
+
+canvas{
+  position: absolute;
+  z-index: 0;
+}
+
+#app div{
+  width:50%;
+  height: 100%;
+}
+
+#app div:nth-child(2){
+  background-color: rgb(189, 175, 159);
+}
