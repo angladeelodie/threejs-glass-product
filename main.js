@@ -45,9 +45,9 @@ function init() {
 
 
       const loader = new GLTFLoader().setPath('assets/models/');
-      loader.load('product_v3.gltf', function (gltf) {
+      loader.load('product1.gltf', function (gltf) {
         console.log(gltf.scene.children[0].children)
-        const glass = gltf.scene.children[0].children.find((mesh) => mesh.name === "product-verre");
+        const glass = gltf.scene.children[0].children.find((mesh) => mesh.name === "product1-verre");
         console.log(glass)
 
         let color = new THREE.Color( 0xb8b8b8 );
